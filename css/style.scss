@@ -264,3 +264,22 @@ textarea {
     page-break-after: avoid;
   }
 }
+
+
+@import 'stylebook';
+@import 'components/header';
+@import 'components/main.about';
+@import 'components/main.portfolio';
+@import 'components/main.prices';
+@import 'components/main.work';
+@import 'components/footer';
+
+
+.logo {
+  @apply font-logo text-3xl;
+}
+
+.head, .text {
+  @apply font-main text-sm;
+}
+

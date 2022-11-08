@@ -1,13 +1,13 @@
 {
-  "name": " ",
+  "name": "BlackLinePhoto Project",
   "version": "0.0.1",
   "description": "",
   "keywords": "",
   "license": "",
   "author": "",
   "scripts": {
-    "build": "npx tailwindcss -i ./css/style.scss -o ./css/style.css --minify && parcel build index.html",
-    "dev": "npx tailwindcss -i ./css/style.scss -o ./css/style.css --watch && parcel index.html --open",
+    "build": "npx tailwindcss -i ./css/style.scss -o ./css/output.css --minify && parcel build index.html",
+    "dev": "npx tailwindcss -i ./css/style.scss -o ./css/output.css --watch && parcel index.html --open",
     "start": "npm run build && npm run dev"
   },
   "devDependencies": {
@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1"
+    "eslint-plugin-prettier": "^4.2.1",
+    "unsplash-js": "^7.0.15"
   }
 }
