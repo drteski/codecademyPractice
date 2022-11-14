@@ -1,2 +1,104 @@
+.header-container {
+  @apply w-screen h-screen bg-black;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  @apply text-white font-logo text-3xl;
+}
 
 
+.menu-item__link {
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 3px;
+  color: white;
+  @apply text-4xl;
+}
+
+.cont {
+  @apply flex justify-between items-center mx-4 my-4;
+}
+
+.navbar {
+  @apply flex text-xs;
+}
+
+.border-container {
+  @apply border-t border-l border-white ml-4;
+  overflow: hidden;
+  height: 100%;
+}
+
+.img-cont {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.img-img {
+  width: auto;
+  height: 245px;
+  margin-right: 16px;
+  opacity: 0.5;
+  filter: grayscale(60%);
+}
+
+
+.img-cont .row {
+  display: flex;
+  overflow: hidden;
+  height: 33%;
+  margin-bottom: 16px;
+
+}
+
+.text h1, .text p {
+  text-align: center;
+}
+
+.text h1 {
+  font-size: 34px;
+  margin-top: 150px;
+  text-transform: uppercase;
+  @apply font-main font-black;
+}
+
+.text p {
+  font-size: 1.25rem;
+  width: 90%;
+  @apply font-light;
+  padding: 16px;
+}
+
+.text button {
+  margin-top: 300px;
+  padding: 1rem 2rem;
+  letter-spacing: 1px;
+  border: 1px solid white;
+  @apply font-light;
+}
+
+.text button:hover {
+  color: black;
+  background-color: white;
+}
+
+.text {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}

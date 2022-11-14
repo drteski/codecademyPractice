@@ -1,6 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.header-container {
+  @apply w-screen h-screen bg-black;
+}
+
+.border-container {
+  @apply border-t border-l border-white;
+}
+
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
@@ -230,13 +238,6 @@ h3 {
 h3 {
     page-break-after: avoid;
   }
-}
-.logo {
-  @apply font-logo text-3xl;
-}
-
-.head, .text {
-  @apply font-main text-sm;
 }
 
 /*# sourceMappingURL=style.css.map */

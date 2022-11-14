@@ -1,6 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'stylebook.scss';
+@import 'components/header.scss';
+@import 'components/main_about.scss';
+@import 'components/main_portfolio.scss';
+@import 'components/main_prices.scss';
+@import 'components/main_work.scss';
+@import 'components/footer.scss';
 
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
@@ -266,20 +270,4 @@ textarea {
 }
 
 
-@import 'stylebook';
-@import 'components/header';
-@import 'components/main.about';
-@import 'components/main.portfolio';
-@import 'components/main.prices';
-@import 'components/main.work';
-@import 'components/footer';
-
-
-.logo {
-  @apply font-logo text-3xl;
-}
-
-.head, .text {
-  @apply font-main text-sm;
-}
 
